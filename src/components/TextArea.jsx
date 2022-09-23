@@ -7,7 +7,7 @@ const TextArea = ({ placeholder, onChange, value, required }) => {
         {placeholder}
       </label>
       <textarea
-      required={required}
+        required={required}
         value={value}
         onChange={onChange}
         rows="5"
